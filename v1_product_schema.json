@@ -1,0 +1,107 @@
+{
+  "availability_type": {
+    "type": "integer"
+  },
+  "available_on": {
+    "type": "string"
+  },
+  "avg_rating": {
+    "type": "number"
+  },
+  "bin_category_id": {
+    "type": "integer"
+  },
+  "bundled": {
+    "type": "boolean"
+  },
+  "cod_enabled": {
+    "type": "boolean"
+  },
+  "created_at": {
+    "type": "string"
+  },
+  "crushable": {
+    "type": "boolean"
+  },
+  "deleted_at": {
+    "type": "null"
+  },
+  "depend_only_inventory_details": {
+    "type": "boolean"
+  },
+  "description": {
+    "type": "string"
+  },
+  "electronic_product_code": {
+    "type": "string"
+  },
+  "in_stock": {
+    "type": "boolean"
+  },
+  "is_loyalty_reward": {
+    "type": "boolean"
+  },
+  "loyalty_point": {
+    "type": "number"
+  },
+  "loyalty_reward_cost": {
+    "type": "integer"
+  },
+  "loyalty_sync_key": {
+    "type": "string"
+  },
+  "loyalty_synced_at": {
+    "type": "string"
+  },
+  "magerecord_product_entity_id": {
+    "type": "integer"
+  },
+  "magerecord_product_id": {
+    "type": "integer"
+  },
+  "meta_description": {
+    "type": "string"
+  },
+  "meta_keywords": {
+    "type": "string"
+  },
+  "meta_title": {
+    "type": "string"
+  },
+  "moq_limit": {
+    "type": "integer"
+  },
+  "name": {
+    "type": "string"
+  },
+  "promotionable": {
+    "type": "boolean"
+  },
+  "purchases_last_7_days": {
+    "type": "integer"
+  },
+  "purchases_last_7_days_updated_at": {
+    "type": "string"
+  },
+  "refundable": {
+    "type": "boolean"
+  },
+  "reviews_count": {
+    "type": "integer"
+  },
+  "shipping_category_id": {
+    "type": "integer"
+  },
+  "slug": {
+    "type": "string"
+  },
+  "subscription_only": {
+    "type": "boolean"
+  },
+  "tax_category_id": {
+    "type": "integer"
+  },
+  "updated_at": {
+    "type": "string"
+  }
+}

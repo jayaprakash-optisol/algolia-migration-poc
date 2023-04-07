@@ -1,0 +1,131 @@
+{
+  "id": {
+    "type": "integer"
+  },
+  "is_deleted": {
+    "type": "boolean"
+  },
+  "created_at": {
+    "type": "string"
+  },
+  "updated_at": {
+    "type": "string"
+  },
+  "name": {
+    "type": "string"
+  },
+  "sku": {
+    "type": "string"
+  },
+  "price": {
+    "type": "integer"
+  },
+  "loyalty_point": {
+    "type": "string"
+  },
+  "short_description": {
+    "type": "string"
+  },
+  "long_description": {
+    "type": "string"
+  },
+  "validity_tag": {
+    "type": "string"
+  },
+  "discount": {
+    "type": "string"
+  },
+  "taxon_id": {
+    "type": "integer"
+  },
+  "department_id": {
+    "type": "null"
+  },
+  "country_id": {
+    "type": "integer"
+  },
+  "category_id": {
+    "type": "integer"
+  },
+  "name_ar": {
+    "type": "string"
+  },
+  "short_description_ar": {
+    "type": "string"
+  },
+  "long_description_ar": {
+    "type": "string"
+  },
+  "validity_tag_ar": {
+    "type": "string"
+  },
+  "available_on": {
+    "type": "string"
+  },
+  "electronic_product_code": {
+    "type": "integer"
+  },
+  "height": {
+    "type": "number"
+  },
+  "width": {
+    "type": "integer"
+  },
+  "depth": {
+    "type": "number"
+  },
+  "weight": {
+    "type": "integer"
+  },
+  "issue_loyalty_points": {
+    "type": "boolean"
+  },
+  "cod_enabled": {
+    "type": "boolean"
+  },
+  "promotable": {
+    "type": "boolean"
+  },
+  "refundable": {
+    "type": "boolean"
+  },
+  "deactivate": {
+    "type": "boolean"
+  },
+  "bundled": {
+    "type": "boolean"
+  },
+  "barcode": {
+    "type": "string"
+  },
+  "meta_title": {
+    "type": "string"
+  },
+  "meta_keywords": {
+    "type": "string"
+  },
+  "meta_keywords_ar": {
+    "type": "string"
+  },
+  "meta_description": {
+    "type": "string"
+  },
+  "slug": {
+    "type": "string"
+  },
+  "bin_category_id": {
+    "type": "integer"
+  },
+  "tax_category_id": {
+    "type": "integer"
+  },
+  "supplier_id": {
+    "type": "integer"
+  },
+  "manufacturer_id": {
+    "type": "integer"
+  },
+  "brand_id": {
+    "type": "integer"
+  }
+}

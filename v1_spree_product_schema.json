@@ -1,0 +1,58 @@
+{
+  "name": { "type": "string", "default": "", "nullable": false },
+  "description": { "type": "string" },
+  "available_on": { "type": "string", "format": "date-time" },
+  "deleted_at": { "type": "string", "format": "date-time" },
+  "slug": { "type": "string" },
+  "meta_description": { "type": "string" },
+  "meta_keywords": { "type": "string" },
+  "tax_category_id": { "type": "integer" },
+  "shipping_category_id": { "type": "integer" },
+  "created_at": { "type": "string", "format": "date-time" },
+  "updated_at": { "type": "string", "format": "date-time" },
+  "promotionable": { "type": "boolean", "default": true },
+  "meta_title": { "type": "string" },
+  "avg_rating": {
+    "type": "number",
+    "default": 0.0,
+    "minimum": 0,
+    "maximum": 9999999.99999
+  },
+  "reviews_count": { "type": "integer", "default": 0 },
+  "in_stock": { "type": "boolean", "default": true },
+  "magerecord_product_entity_id": { "type": "integer" },
+  "magerecord_product_id": { "type": "integer" },
+  "bundled": { "type": "boolean", "default": false },
+  "moq_limit": { "type": "integer", "default": 0 },
+  "bin_category_id": { "type": "integer" },
+  "crushable": { "type": "boolean", "default": false },
+  "refundable": { "type": "boolean", "default": true },
+  "cod_enabled": { "type": "boolean", "default": true },
+  "loyalty_point": {
+    "type": "number",
+    "default": 1.0,
+    "minimum": 0,
+    "maximum": 999999999999999.9999
+  },
+  "availability_type": { "type": "integer", "default": 1 },
+  "depend_only_inventory_details": { "type": "boolean", "default": false },
+  "electronic_product_code": { "type": "string" },
+  "purchases_last_7_days": { "type": "integer", "default": 0 },
+  "purchases_last_7_days_updated_at": {
+    "type": "string",
+    "format": "date-time"
+  },
+  "subscription_only": { "type": "boolean", "default": false },
+  "loyalty_synced_at": {
+    "type": "string",
+    "format": "date-time",
+    "default": "CURRENT_TIMESTAMP"
+  },
+  "loyalty_sync_key": { "type": "string" },
+  "is_loyalty_reward": { "type": "boolean", "default": false },
+  "loyalty_reward_cost": {
+    "type": "number",
+    "minimum": 0,
+    "maximum": 999999999999999.9999
+  }
+}
